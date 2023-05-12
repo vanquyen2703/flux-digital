@@ -124,6 +124,88 @@
       .section-contact .contact-form .contact-form-button .wpcf7-spinner {
         left: 82px; } }
 
+.contact-according .sub-heading h6 {
+  display: flex;
+  align-items: center; }
+  .contact-according .sub-heading h6:before {
+    content: "";
+    display: inline-block;
+    width: 22px;
+    max-height: 2px;
+    min-height: 2px;
+    margin-right: 10px;
+    border-radius: 1000px;
+    background-color: #ff3951; }
+    @media screen and (min-width: 768px) {
+      .contact-according .sub-heading h6:before {
+        content: none; } }
+    @media screen and (min-width: 1025px) {
+      .contact-according .sub-heading h6:before {
+        content: ""; } }
+  @media screen and (min-width: 768px) {
+    .contact-according .sub-heading h6 {
+      justify-content: center; } }
+  @media screen and (min-width: 1025px) {
+    .contact-according .sub-heading h6 {
+      justify-content: flex-start; } }
+.contact-according .elementor-accordion {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-row-gap: 26px; }
+  .contact-according .elementor-accordion .elementor-accordion-item {
+    padding: 36px 25px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid #eff0f6;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 6px 12px 0 rgba(20, 20, 43, 0.05); }
+    @media screen and (min-width: 768px) {
+      .contact-according .elementor-accordion .elementor-accordion-item {
+        padding: 51px 46px;
+        border-radius: 22px; } }
+  .contact-according .elementor-accordion .elementor-tab-title {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center; }
+    .contact-according .elementor-accordion .elementor-tab-title .elementor-accordion-icon {
+      display: flex;
+      width: 36px;
+      min-height: 36px;
+      min-width: 36px;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+      background-color: #eff0f6;
+      transition: all .7s; }
+      .contact-according .elementor-accordion .elementor-tab-title .elementor-accordion-icon .elementor-accordion-icon-closed {
+        color: #6e7191;
+        transition: all .7s; }
+    .contact-according .elementor-accordion .elementor-tab-title.elementor-active .elementor-accordion-icon {
+      background-color: #ff3951; }
+      .contact-according .elementor-accordion .elementor-tab-title.elementor-active .elementor-accordion-icon .elementor-accordion-icon-opened {
+        color: #fff; }
+  .contact-according .elementor-accordion .elementor-accordion-icon {
+    display: flex;
+    width: 36px;
+    min-height: 36px;
+    min-width: 36px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #eff0f6; }
+  .contact-according .elementor-accordion .elementor-tab-content {
+    border: none; }
+.contact-according .media {
+  position: relative; }
+  .contact-according .media .bg-animation {
+    -webkit-animation: rotating 10s linear infinite;
+    -moz-animation: rotating 10s linear infinite;
+    -ms-animation: rotating 10s linear infinite;
+    -o-animation: rotating 10s linear infinite;
+    animation: rotating 10s linear infinite; }
+
 .social-media .sub-heading h6 {
   display: flex;
   align-items: center; }

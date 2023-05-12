@@ -166,6 +166,121 @@
     }
 }
 
+//FAQS
+.contact-according {
+    .sub-heading h6 {
+        display: flex;
+        align-items: center;
+
+        &:before {
+            content: "";
+            display: inline-block;
+            width: 22px;
+            max-height: 2px;
+            min-height: 2px;
+            margin-right: 10px;
+            border-radius: 1000px;
+            background-color: #ff3951;
+
+            @media screen and (min-width: 768px) {
+                content: none;
+            }
+
+            @media screen and (min-width: 1025px) {
+                content: "";
+            }
+        }
+
+        @media screen and (min-width: 768px) {
+            justify-content: center;
+        }
+
+        @media screen and (min-width: 1025px) {
+            justify-content: flex-start;
+        }
+    }
+
+    .elementor-accordion {
+        display: grid;
+        grid-auto-columns: 1fr;
+        grid-row-gap: 26px;
+
+        .elementor-accordion-item {
+            padding: 36px 25px;
+            border-radius: 20px;
+            overflow: hidden;
+            border: 1px solid #eff0f6;
+            border-radius: 20px;
+            background-color: #fff;
+            box-shadow: 0 6px 12px 0 rgba(20, 20, 43, 0.05);
+
+            @media screen and (min-width: 768px) {
+                padding: 51px 46px;
+                border-radius: 22px;    
+            }
+        }
+
+        .elementor-tab-title {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            align-items: center;
+
+            .elementor-accordion-icon {
+                display: flex;
+                width: 36px;
+                min-height: 36px;
+                min-width: 36px;
+                justify-content: center;
+                align-items: center;
+                border-radius: 10px;
+                background-color: #eff0f6;
+                transition: all .7s;
+
+                .elementor-accordion-icon-closed {
+                    color: #6e7191;
+                    transition: all .7s;
+                }
+            }
+
+            &.elementor-active .elementor-accordion-icon {
+                background-color: #ff3951;
+
+                .elementor-accordion-icon-opened {
+                    color: #fff;
+                }
+            }
+        }
+
+        .elementor-accordion-icon {
+            display: flex;
+            width: 36px;
+            min-height: 36px;
+            min-width: 36px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            background-color: #eff0f6;
+        }
+
+        .elementor-tab-content {
+            border: none;
+        }
+    }
+
+    .media {
+        position: relative;
+
+        .bg-animation {
+            -webkit-animation: rotating 10s linear infinite;
+            -moz-animation: rotating 10s linear infinite;
+            -ms-animation: rotating 10s linear infinite;
+            -o-animation: rotating 10s linear infinite;
+            animation: rotating 10s linear infinite;
+        }
+    }
+}
+// Social Follow
 .social-media {
     .sub-heading h6 {
         display: flex;
