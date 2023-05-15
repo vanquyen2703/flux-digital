@@ -37,12 +37,23 @@ function flux_theme_enqueue_styles() {
 		);
 		// Css Slick
 		wp_enqueue_style(
-			'truevera-slick',
+			'flux-slick',
 			FLUX_DIR_ASSETS . '/css/slick.min.css',
 			array(),
 			wp_get_theme()->get('Version')
 		);
 	}
+
+	// Other page styles
+	if (!is_front_page()) {
+		wp_enqueue_style(
+			'flux-other-page',
+			FLUX_DIR_ASSETS . '/css/other-page.min.css',
+			array(),
+			wp_get_theme()->get( 'Version' )
+		);
+	}
+	
 	//script
 	wp_enqueue_script('jquery', FLUX_DIR_ASSETS .'/js/jquery.min.js');
 
