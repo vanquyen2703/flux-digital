@@ -1,0 +1,70 @@
+.about-agency {
+    position: relative;
+
+    .about-hero-wrapper > div {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .content-right {
+        @media screen and (min-width: 768px) {
+            max-width: calc(60% - 20px);
+            margin-right: 20px;
+            width: calc(60% - 20px) !important;
+        }
+
+        @media screen and (min-width: 1025px) {
+            max-width: 602px;
+            width: calc(53% - 40px) !important;
+            margin-right: 40px;
+        }
+    }
+    .media {
+        order: 2;
+        width: 45% !important;
+
+        @media screen and (min-width: 1025px) {
+            order: 1;
+            max-width: 47%;
+            width: 47% !important;
+        }
+    }
+
+    .w-45 {
+        order: 1;
+        margin-bottom: 40px;
+        
+        img {
+            max-width: 60%;
+        }
+
+        @media screen and (min-width: 768px) {
+            max-width: 40%;
+            width: 40% !important;
+
+            img {
+                max-width: 100%;
+            }
+        }
+
+        @media screen and (min-width: 1025px) {
+            max-width: 441px;
+            order: 2;
+            margin-right: 30px;
+            width: calc(40% - 30px) !important;
+        }
+    }
+
+    .w-50 {
+        order: 3;
+        width: 50% !important;
+
+        @media screen and (min-width: 1025px) {
+            width: 60% !important;
+        }
+    }
+
+    .counter {
+        margin: 0 -15px;
+        width: calc(100% + 30px) !important;
+    }
+}
