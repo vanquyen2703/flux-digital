@@ -267,18 +267,6 @@
             border: none;
         }
     }
-
-    .media {
-        position: relative;
-
-        .bg-animation {
-            -webkit-animation: rotating 10s linear infinite;
-            -moz-animation: rotating 10s linear infinite;
-            -ms-animation: rotating 10s linear infinite;
-            -o-animation: rotating 10s linear infinite;
-            animation: rotating 10s linear infinite;
-        }
-    }
 }
 // Social Follow
 .social-media {
@@ -338,18 +326,5 @@
                 grid-column-gap: 32px;
             }
         }
-    }
-}
-
-@-webkit-keyframes rotating {
-    from {
-      -webkit-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0) skew(0deg, 0deg);
-      -o-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0) skew(0deg, 0deg);
-      transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0) skew(0deg, 0deg);
-    }
-    to {
-      -webkit-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(360deg) skew(0deg, 0deg);
-      -o-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(360deg) skew(0deg, 0deg);
-      transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(360deg) skew(0deg, 0deg);
     }
 }
