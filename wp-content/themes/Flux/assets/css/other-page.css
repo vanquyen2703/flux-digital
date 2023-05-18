@@ -291,6 +291,14 @@
   .about-agency .counter {
     margin: 0 -15px;
     width: calc(100% + 30px) !important; }
+    .about-agency .counter .clients .elementor-counter-number-suffix {
+      color: #ff3951; }
+    .about-agency .counter .users .elementor-counter-number-suffix {
+      color: #6a35ff; }
+    .about-agency .counter .members .elementor-counter-number-suffix {
+      color: #ffc226; }
+    .about-agency .counter .projects .elementor-counter-number-suffix {
+      color: #3f80fd; }
 
 /******  Style Guide  ******/
 body {

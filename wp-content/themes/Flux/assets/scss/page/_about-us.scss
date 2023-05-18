@@ -66,5 +66,18 @@
     .counter {
         margin: 0 -15px;
         width: calc(100% + 30px) !important;
+
+        .clients .elementor-counter-number-suffix {
+            color: #ff3951;
+        }
+        .users .elementor-counter-number-suffix {
+            color: #6a35ff;
+        }
+        .members .elementor-counter-number-suffix {
+            color: #ffc226;
+        }
+        .projects .elementor-counter-number-suffix {
+            color: #3f80fd;
+        }
     }
 }
